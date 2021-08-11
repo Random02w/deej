@@ -1,5 +1,6 @@
 const int NUM_SLIDERS = 6;
 const int analogInputs[NUM_SLIDERS] = {A0, A1, A2, A3, A6, A7};
+//change last 2 slider to A6&A7 since the A4&A5 are taken by I2C on Seeeduino Lotus;
 int analogSliderValues[NUM_SLIDERS];
 
 //add LCD library of 16x2 LCD shield;
